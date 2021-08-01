@@ -1,0 +1,62 @@
+Data types and type modifiers
+
+We know that to store any data in memory we can store them with the help of variables and we can later change them.
+
+But we have different type of data hence we need different datatypes
+
+int,float,double
+
+int for integers 
+
+float for decimal numbers upto 7 decimals precision
+
+double for decimal numbers upto 15 decimals precision
+
+we can also store char and bool for character and boolean
+
+int takes 4 bytes
+
+float takes 4 bytes
+
+double takes 8 bytes
+
+But we can modify these with type modifiers like short and long as per our need
+
+short int a;//takes only 2 bytes
+
+usinged this only chnages the range not the size.
+
+what are namespaces?
+
+For example we want to have two variables with same name but this will cause the name conflict
+
+hence to avoid the name conflict we can use the namespaces
+
+syntax
+
+namespace <name of namespace> {
+    //all the variables and the functions 
+}
+
+using namespace <name of namespace>
+
+now we can use the all the variables and functions 
+
+another way to do this is 
+
+<name of namespace>::<variables or functions>
+
+header files contain the declaration and implementation files contain the defination 
+
+we need to inclue the header files like this "headerfile.h"
+
+in the implementation file we need to inclue the header file also 
+
+
+jumps in the loops 
+
+we are having two types of jumps one is break and other is continue
+
+using the break we will get out the loop or basically we will terminate the loop
+
+using the continue we will skip that particular iteration only.

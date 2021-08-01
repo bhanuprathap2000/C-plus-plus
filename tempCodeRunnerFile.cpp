@@ -1,17 +1,18 @@
-class Rectangle{
+#include <iostream>
 
-//     public:
-//             int length;
-//             int breadth;
+using namespace std;
 
-//             int area(){
-//                 return length*breadth;
-//             }
+int main(){
 
-//             int perimeter(){
-//                 return 2*(length+breadth);
-//             }
+    int a;
+    float b;
+    double c;
+
+    cout<<sizeof(a)<<endl;
+    cout<<sizeof(b)<<endl;
+    cout<<sizeof(c)<<endl;
 
 
-    
-// };
+
+    return 0;
+}
